@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE package SYSTEM "http://pear.php.net/dtd/package-1.0">
+<package version="1.0" packagerversion="1.9.4">
+ <name>taint</name>
+ <summary>XSS code sniffer</summary>
+ <description>An extension used for detecting XSS codes(tainted string), 
+  And also can be used to spot sql injection vulnerabilities, shell inject, etc.
+ </description>
+ <maintainers>
+  <maintainer>
+   <user>laruence</user>
+   <name>Xinchen Hui</name>
+   <email>laruence@php.net</email>
+   <role>lead</role>
+  </maintainer>
+  </maintainers>
+ <release>
+  <version>1.2.0</version>
+  <date>2012-11-06</date>
+  <license>PHP</license>
+  <state>beta</state>
+  <notes>- Support tracing dim concat result (phonpeng@vip.qq.com)
+  </notes>
+  <deps>
+   <dep type="php" rel="ge" version="5.2.0"/>
+   <dep type="php" rel="le" version="5.4.0"/>
+  </deps>
+  <filelist>
+   <file role="test" name="tests/001.phpt"/>
+   <file role="test" name="tests/002.phpt"/>
+   <file role="test" name="tests/003.phpt"/>
+   <file role="test" name="tests/004.phpt"/>
+   <file role="test" name="tests/005.phpt"/>
+   <file role="test" name="tests/006.phpt"/>
+   <file role="test" name="tests/007.phpt"/>
+   <file role="test" name="tests/008.phpt"/>
+   <file role="test" name="tests/009.phpt"/>
+   <file role="test" name="tests/010.phpt"/>
+   <file role="test" name="tests/011.phpt"/>
+   <file role="test" name="tests/bug61163.phpt"/>
+   <file role="test" name="tests/bug61816.phpt"/>
+   <file role="test" name="tests/bug63123.phpt"/>
+   <file role="src" name="config.m4"/>
+   <file role="src" name="config.w32"/>
+   <file role="src" name="CREDITS"/>
+   <file role="src" name="EXPERIMENTAL"/>
+   <file role="src" name="php_taint.h"/>
+   <file role="src" name="taint.c"/>
+  </filelist>
+ </release>
+</package>

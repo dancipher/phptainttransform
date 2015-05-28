@@ -1,0 +1,7 @@
+#! /bin/sh
+#
+# Created by configure
+
+CFLAGS='-O3' \
+'./configure' \
+"$@"
